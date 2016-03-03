@@ -1,0 +1,21 @@
+{
+  "name": "uxd-dmytro-zhykin",
+  "version": "1.0.0",
+  "description": "UXD",
+  "main": "index.html",
+  "dependencies": {
+    "gulp": "^3.9.0",
+    "gulp-jasmine": "^2.1.0",
+    "gulp-less": "^3.0.3",
+    "gulp-minify-css": "^1.2.1",
+    "gulp-rename": "^1.2.2",
+    "gulp.spritesmith": "^4.1.1",
+    "less": "^2.5.3",
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.epam.com/dmytro_zhykin/uxd-dmytro-zhykin.git"
+  },
+  "author": "Dmytro Zhykin",
+  "license": "ISC"
+}

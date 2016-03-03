@@ -1,0 +1,32 @@
+body {
+  background: @color-back;
+  color: @color-font;
+  font: @font;
+  padding: 0 10px;
+}
+
+#wrapper {
+  margin: 80px auto;
+  max-width: @site-width;
+  background: @white;
+  padding: 10px;
+}
+
+#wrapper:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+@media (min-device-width: 700px) and (min-width: 700px) {
+
+  #col-left {
+    float: left;
+    margin-right: 30px;
+    width: 58%;
+  }
+
+  #col-right {
+    overflow: hidden;
+  }
+}

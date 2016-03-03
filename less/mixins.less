@@ -1,0 +1,14 @@
+.text-caption-mixin(@font-size: 13px) {
+  font-weight: bold;
+  margin: 5px 0;
+  font-size: @font-size;
+}
+
+.columns-mixin(@n, @i: 1) when (@i =< @n) {
+
+  .col-@{i} {
+    width: @i * 10%;
+  }
+
+  .columns-mixin(@n, (@i + 1));
+}

@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>CV</title>
+
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+		<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400italic,400,600,600italic,700,700italic,800,800italic'>
+
+		<link rel="stylesheet" href="css/min/bootstrap.min.css" />
+		<link rel="stylesheet" href="css/sprites/sprite.css"/>
+		<link rel="stylesheet" href="css/min/reset.min.css"/>
+		<link rel="stylesheet" href="css/min/styles.min.css"/>
+	</head>
+	<body>
+		<noscript>
+			<p>Please enable scripts on this page to make it work correctly</p>
+		</noscript>
+		<div id="wrapper">
+			<header class="text-center">
+				<img src="images/Po.jpg" alt="user photo" class="photo"/>
+				<h1>
+					<span class="extra-bold">Hello,</span><br/> my name is <mark>Po</mark>
+					<sup>8yo</sup> and this is my awesome resume
+				</h1>
+			</header>
+			<hr/>
+			<main>
+				<section id="col-left" data-list>
+					<!-- About Me -->
+					<article class="group-item">
+						<h2>About Me</h2>
+						<p>
+							Now I am a master, who gets to live out my dream everyday at the Jade Palace as I
+							sharpen my kung fu skills with Master Shifu, battle bad guys with the Furious Five and of
+							course, take a snack break every now and then. With the Furious Five by my side, I will
+							stop at nothing to keep evil out of the Valley of Peace.
+						</p>
+					</article>
+
+					<!-- Education -->
+					<article class="group-item">
+						<h2>Education</h2>
+						<div class="timeline-wrapper" data-scroll>
+							<ul class="timeline">
+							</ul>
+						</div>
+
+					</article>
+
+					<!-- Experiences -->
+					<article class="group-item">
+						<h2>Experiences</h2>
+						<dl class="experiences">
+							<dt>
+								<span class="text-sm-caption">Shen</span><br/>
+								<time>2013-2014</time>
+							</dt>
+							<dd>
+								<h3 class="text-lg-caption">Inner peace master</h3>
+								<p class="text-content">
+									Shen ordered to fire at me again and again, but I continued to evade and throw the
+									blasts elsewhere, until I caught one of the cannonballs and struggled with its
+									force. Before releasing the cannonball, I said "Skadoosh", then threw it at Shen,
+									and it collided with his cannon, destroying it and his entire fleet.
+								</p>
+							</dd>
+
+							<dt>
+								<span class="text-sm-caption">Tai Lung</span><br>
+								<time>2013</time>
+							</dt>
+							<dd>
+								<h3 class="text-lg-caption">Dragon warrior</h3>
+								<p class="text-content">
+									I caught Tai Lung in the Wuxi Finger Hold, with the word "Skadoosh" and the flexing
+									of my pinky, I performed the move, sending a massive golden shock wave throughout
+									the Valley of Peace and beyond, I defeated Tai Lung.
+								</p>
+							</dd>
+						</dl>
+					</article>
+				</section>
+				<section id="col-right" data-list>
+					<!-- Contact -->
+					<article class="group-item">
+						<h2>Contacts</h2>
+						<ul class="contacts">
+							<li>
+								<div class="contact-icon">
+									<a href="tel: 00000000000"><i class="fa fa-phone"></i></a>
+								</div>
+								<div class="contact-content">
+									<span class="text-lg-caption">000-00-00-000</span>
+								</div>
+							</li>
+							<li>
+								<div class="contact-icon">
+									<a href="mailto: kung_fu_panda@epam.com"><i class="fa fa-envelope"></i></a>
+								</div>
+								<div class="contact-content">
+									<span class="text-lg-caption">kung_fu_panda@epam.com</span>
+								</div>
+							</li>
+							<li>
+								<div class="contact-icon">
+									<a href="https://vk.com/kung_fu_panda"><i class="fa fa-vk"></i></a>
+								</div>
+								<div class="contact-content">
+									<span class="text-lg-caption">VK</span><br/>
+									https://vk.com/kung_fu_panda
+								</div>
+							</li>
+							<li>
+								<div class="contact-icon">
+									<a href="https://www.facebook.com/KungFuPanda"><i class="fa fa-facebook"></i></a>
+								</div>
+								<div class="contact-content">
+									<span class="text-lg-caption">Facebook</span><br/>
+									https://www.facebook.com/KungFuPanda
+								</div>
+							</li>
+							<li>
+								<div class="contact-icon">
+									<a href="skype: kung_fu_panda"><i class="fa fa-skype"></i></a>
+								</div>
+								<div class="contact-content">
+									<span class="text-lg-caption">Skype</span><br/>
+									kung_fu_panda
+								</div>
+							</li>
+						</ul>
+					</article>
+
+					<!-- Skills -->
+					<article class="group-item" data-skill-panel>
+						<button id="btn-toggle-add-skills" class="btn btn-xs btn-default">Open Edit</button>
+						<h2>Skills</h2>
+
+						<!-- Manage skills panel-->
+						<form id="manage-skills-panel">
+							<div class="form-group">
+								<label for="skill-name">Skill name</label>
+								<input id="skill-name" class="form-control input-sm" type="text" placeholder="Kung Fu" required />
+							</div>
+							<div class="form-group">
+								<label for="skill-level">Skill range</label>
+								<input id="skill-level" class="form-control input-sm" type="number" min="10" max="100" placeholder="100" required />
+							</div>
+							<input type="submit" class="btn btn-sm btn-success" value="Add Skill"/>
+						</form>
+
+						<!-- Skills graph -->
+						<div class="skills-graph">
+							<ul>
+								<li>
+									<div class="col-10 text-sm-caption animate-width">Kung Fu</div>
+								</li>
+								<li>
+									<div class="col-6 text-sm-caption animate-width">Sensei</div>
+								</li>
+								<li>
+									<div class="col-8 text-sm-caption animate-width">Noodles</div>
+								</li>
+								<li>
+									<div class="col-5 text-sm-caption animate-width">JavaScript (assumption)</div>
+								</li>
+							</ul>
+							<table class="ruler col-10">
+								<tr>
+									<td class="interval col-3"></td>
+									<td class="interval col-4"></td>
+									<td class="interval col-3"></td>
+								</tr>
+							</table>
+							<table class="ruler col-10">
+								<tr>
+									<td class="ruler-label text-left col-2">Beginner</td>
+									<td class="ruler-label text-center col-2">Proficient</td>
+									<td class="ruler-label col-2"></td>
+									<td class="ruler-label text-center col-2">Expert</td>
+									<td class="ruler-label text-right col-2">Master</td>
+								</tr>
+							</table>
+						</div>
+					</article>
+
+					<!-- Languages -->
+					<article class="group-item">
+						<h2>Languages</h2>
+						<table class="languages">
+							<tbody>
+								<tr>
+									<td>English</td>
+									<td>
+										<ul class="star-rating">
+											<li class="icon-red-star"></li>
+											<li class="icon-red-star"></li>
+											<li class="icon-red-star"></li>
+											<li class="icon-red-star"></li>
+											<li class="icon-gray-star"></li>
+										</ul>
+									</td>
+								</tr>
+								<tr>
+									<td>Chinese</td>
+									<td>
+										<ul class="star-rating">
+											<li class="icon-red-star"></li>
+											<li class="icon-red-star"></li>
+											<li class="icon-red-star"></li>
+											<li class="icon-red-star"></li>
+											<li class="icon-red-star"></li>
+										</ul>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+					</article>
+
+					<!-- Hobbies -->
+					<article class="group-item">
+						<h2>Hobbies</h2>
+						<ul class="hobbies">
+							<li><a href="#"><i class="fa fa-heart"></i> Awesomeness</a></li>
+							<li><a href="#"><i class="fa fa-heart"></i> Trainings</a></li>
+							<li><a href="#"><i class="fa fa-heart"></i> Food</a></li>
+						</ul>
+					</article>
+				</section>
+			</main>
+		</div>
+
+		<!-- Timeline template -->
+		<template id="timeline-template">
+			<li>
+				<div class="timeline-date">{{ date }}</div>
+				<div class="timeline-event">
+					<h3 class="text-lg-caption">{{ title }}</h3>
+					<p class="text-content">{{ content }}</p>
+				</div>
+			</li>
+		</template>
+
+		<!-- Skill template -->
+		<template id="skill-template">
+			<li>
+				<div class="text-sm-caption animate-width">{{ skill-name }}</div>
+			</li>
+		</template>
+
+		<script src="https://cdn.firebase.com/js/client/2.3.1/firebase.js"></script>
+		<script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+		<script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+
+		<script src="js/app.js"></script>
+	</body>
+</html>

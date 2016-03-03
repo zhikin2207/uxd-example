@@ -1,0 +1,62 @@
+main {
+  margin: 10px;
+  overflow: hidden;
+}
+
+hr {
+  border: 1px solid @color-back;
+  margin: 0 10px;
+}
+
+mark {
+  color: @color-basic;
+  background: @white;
+}
+
+sup {
+  color: @light-gray;
+}
+
+time {
+  color: @light-gray;
+}
+
+.extra-bold {
+  font-weight: 900;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-lg-caption {
+
+  .text-caption-mixin(13px);
+}
+
+.text-sm-caption {
+
+  .text-caption-mixin(10px);
+}
+
+.columns-mixin(10);
+
+/* Animation */
+
+.animate-width {
+  animation: width-animation 1s linear;
+}
+
+@keyframes width-animation {
+  from {
+    width: 0;
+  }
+}
